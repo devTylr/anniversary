@@ -11,9 +11,10 @@ img {
     width: 350px;
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(12px);
+    margin: 10px 0;
 }
 
-img:hover {
+img:hover, img:active {
     webkit-filter: blur(0); /* Chrome, Safari, Opera */
     filter: blur(0);
 }
@@ -24,5 +25,8 @@ h1 {
 
 h2 {
     margin: 0;
-    margin-bottom: 50px;
+}
+
+.tlou {
+    margin-bottom: 20px;
 }
